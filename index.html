@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gogole</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--search bar-->
+<style>
+.searchbar{
+    top:44%;
+	margin-left:51%;
+   text-align: center
+   width:100%;
+   position:fixed;
+   transform: translate(-50%, -50%);
+     -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  translateX(-50%);
+}
+.bar{
+    border-radius:20px;
+    -webkit-box-shadow: 2px 3px 0px -2px #ccc;
+    padding:15px 40px;
+	text-align: left;
+    border:0px;
+    outline: none;
+    border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #CCC;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+  border-style: solid;
+}
+* {
+     box-sizing: border-box 
+  }
+.bar:hover{
+    -webkit-box-shadow: 3px 6px 7px -2px #ccc;
+}
+</style>
+<!--cam toate butoanele sunt aici dar mai au si ele functii pt ca sunt retardat si nu pot sa ma hotarasc-->
+<style>
+.button {
+  border: none;
+  padding: 10px 32px;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 15px -750px;
+  cursor: pointer;
+  margin-top:450px;
+  font-family: 'Roboto'
+}
+
+.button1 {background-color: #f9f9fb;   color: #3d4143; border: none; padding: 10px 32px; border-radius:5px; text-decoration: none; position:fixed; translateX(-50%); left:41%; top:50%; font-family: 'Roboto'} 
+.button2 {background-color: #f9f9fb;  color: #3d4143; border: none; padding: 10px 32px; border-radius:5px; text-decoration: none; position:fixed; translateX(-50%); left:51%; top:50%; font-family: 'Roboto'}
+.button3 {background-color: #1b72e8; color: #ffffff; border: none; padding: 10px 32px; border-radius:5px; text-decoration: none; position:fixed; translateX(-50%); left:130%; font-family: 'Roboto'}
+</style>
+<!--asta e ca sa nu aiba linii ce e href-->
+<style>
+    a { text-decoration: none; }
+  </style>
+<!--asta e lupa aia mica de la bara de search-->
+  <style>
+  label {
+  position: relative;
+}
+
+label:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 20px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='25' height='25' viewBox='0 0 25 25' fill-rule='evenodd'%3E%3Cpath d='M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'%3E%3C/path%3E%3C/svg%3E") center / contain no-repeat;
+}
+</style>
+<!--aici incerc sa rezolv faza cu zoomu-->
+<style>
+html {
+    height: 100%;
+}
+body {
+    max-height: 100%;
+}
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+</style>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head style="zoom: 100%;">
+<!--de aici incepe body-->
+<body>
+<header>
+<div>
+<a href="https://mail.google.com/mail/&ogbl" style="position:fixed; right:300px; top:21px; color:#3d4143; font-family: 'Roboto'; font-size:15px;">Gmail</a>
+<a href="https://google.com/images" style="position:fixed; right:230px; top:21px; color:#3d4143; font-family: 'Roboto'; font-size:15px;">Imagini</a>
+<button class="button button3" type="profile" name="profile" value="Conectați-vă" style="position:fixed; top:-440px; color: #ffffff;; font-family: 'Roboto'; font-size:15px;" onclick="window.location.href='https://myaccount.google.com/'">Conectați-vă</button>
+</dir>
+</header>
+<dir>
+<img src="https://cdn.discordapp.com/attachments/969350668274004079/986733754376675398/gogole69.png" alt="Gogole" height="92" width="272" style="position:fixed; transform: translateX(-50%); left:50%; top:28%; text-align: center display: block; position: absolute;">
+</dir>
+                <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-xs-12">
+                <div class="searchbar">
+                    <div class="form-group " height="160px">
+					    <form action="http://www.google.com/search" method="get">
+                        <label>
+						<input type="text" name="q" class="bar" style="width:588px; height:44px; outline:none;" class="form-control" maxlength="2048" aria-autocomplete="both" aria-haspopup="false" autocapitalize="off" autocomplete="off" autocorrect="off" autofocus="">
+						</label>						 
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+	<input class="button1" type="submit" name="cautare" value="Căutare Gogole">
+    <input class="button2" type="submit" name="norocos" value="Mă simt norocos"></form>
+	<p style="position:fixed; translateX(-50%); left:43%; top:530px; color:#3d4143; font-family: 'Roboto'; font-size:15px; position:fixed;
+	">Gogole oferit în: <a href="https://gogole-v1.github.io">Romanian </a> <a href="https://gogole-v1.github.io">English </a> <a href="https://gogole-v1.github.io">Hentai </a>
+	<footer>
+	<div style="background-color: #f2f2f2; position:fixed; width:100%; height:5%; translateX(-50%); top:95%; font-family: 'Roboto'; font-size:12px; color:#3d4143">
+	<p style="text-align: center;">Made with love by <a href="https://github.com/lamaie" style="background-color: yellow;">Lamaie</a> in a boring night just for fun and learning purposes.<br>This project is not affiliated in any way with Google (Google Inc.) and I am not making any profits from it.<br>Everything you search on this website is redirected to the official <a href="https://google.com/search">google.com<a> owned by Google Inc. (also referred as "Google", "their" in this text) and you have the obligation to respect their <a href="https://policies.google.com/terms?hl=ro&fg=1">Terms and Services</a> and read their <a href="https://policies.google.com/privacy?hl=ro&fg=1">Privacy</a> policies.</p> 
+	</div>
+</body>
+</html>
