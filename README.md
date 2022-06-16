@@ -1,4 +1,4 @@
-# gogole-v1
+# gogole-v1 - only romanian for now, I will add an auto-translate function these days
 A clone of the home page of the popular Search Engine Google, manually writed by me, rebranded as Gogole because I'm scared of copyright.
 
 This is my first project in html&css, the search bar is working (redirecting to the official google.com/search) and the design is kinda fine for a first project.
